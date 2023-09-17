@@ -1,6 +1,6 @@
 import  React from 'react';
 import {View,onPress, Text, Image,TouchableOpacity, StyleSheet, TextInput, FlatList} from 'react-native';
-import Song from '../Song';
+import Song from '../../src/Files/Song';
 import { AntDesign } from '@expo/vector-icons';
 import stylos from './stylos/stylos';
 

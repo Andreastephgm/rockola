@@ -7,7 +7,7 @@ const Profile = () => {
   return(
       <View style={styles.container}>
           <Text style={styles.profileFont}>Profile</Text>
-          <Image style={styles.imageProfile} source= {require('../assets/profile.jpeg')}></Image>
+          <Image style={styles.imageProfile} source= {require('/assets/profile.jpeg')}></Image>
           <TextInput
           style={{borderWidth: '2', borderColor: '#F0F402', backgroundColor: '#F5F5F5', 
           width: 370, height: 50, marginBottom:29}}

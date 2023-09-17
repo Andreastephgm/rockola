@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {View, FlatList, Image, Text, StyleSheet, TextInput,onPress ,TouchableOpacity} from 'react-native';
 import { FontAwesome } from '@expo/vector-icons'; 
-import Songs2 from '../Songs2';
+import Songs2 from '../../src/Files/Songs2';
 import { AntDesign } from '@expo/vector-icons';
 import { Ionicons } from '@expo/vector-icons';
 

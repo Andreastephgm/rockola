@@ -16,7 +16,7 @@ const Welcome = ({navigation}) => {
 
   const loadFonts = async() =>{
       await Font.loadAsync({
-          'lakki-reddy': require('../assets/LakkiReddy-Regular-1.ttf')
+          'lakki-reddy': require('/assets/LakkiReddy-Regular-1.ttf')
       });
       setFontLoaded(true);
 
@@ -27,7 +27,7 @@ const Welcome = ({navigation}) => {
 
     return(
         <ImageBackground style={stylos.imageFondo} source={imagenBackground}>
-          <Image style={stylos.imageRockola} source={require('../assets/Rockola.png')}/> 
+          <Image style={stylos.imageRockola} source={require('/assets/Rockola.png')}/> 
           <TouchableOpacity style={stylos.buttonSet}
             onPress={() => navigation.navigate('LogIn')}>
               <Text style={stylos.FontSet}>Ingresar</Text> 
